@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "id": "open-source-project-article",
+      "name": "开源项目实测图文",
+      "summary": "从官方示例和社区实用案例出发，制作中文技术文章、配图与公众号排版稿。",
+      "category": "content",
+      "tags": [
+        "开源项目",
+        "技术写作",
+        "公众号",
+        "实测"
+      ],
+      "version": "0.1.0",
+      "path": "skills/open-source-project-article",
+      "example": "examples/open-source-project-article/README.md",
+      "preview": "examples/open-source-project-article/images/hero.png",
+      "inputs": [
+        "GitHub 项目地址",
+        "可选的读者、样文与品牌资产"
+      ],
+      "outputs": [
+        "四部分中文文章",
+        "真实运行与社区案例",
+        "正文首图与英文架构图",
+        "2.35:1 和 1:1 封面",
+        "doocs/md 排版及图文包"
+      ],
+      "requirements": [
+        "联网搜索",
+        "本地运行与截图",
+        "图像生成（配图时）",
+        "doocs/md（排版时）"
+      ],
+      "verified_on": "2026-11-16",
+      "verification": "由实际文章工作流整理；公开版结构与引用已校验，未在全新机器上完整重跑。",
+      "publishing": "产物交给用户审核；不自动公开发布。"
+    }
+  ]
+}

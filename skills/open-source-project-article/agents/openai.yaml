@@ -1,0 +1,4 @@
+interface:
+  display_name: "开源项目实测图文"
+  short_description: "实测开源项目，整理真实案例，制作中文文章、英文架构图和公众号排版稿"
+  default_prompt: "使用 $open-source-project-article 体验这个 GitHub 项目，完成部署说明、实测与社区案例、配图和 doocs/md 成稿。"
